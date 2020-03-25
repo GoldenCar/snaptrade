@@ -1,0 +1,33 @@
+{
+	"expo": {
+		"android": {
+			"package": "us.snaptrade.android",
+			"versionCode": 2,
+			"permissions": [""]
+		},
+		"assetBundlePatterns": ["./*"],
+		"description": "Smart Tools, Smart Investing",
+		"icon": "./assets/icon.png",
+		"ios": {
+			"bundleIdentifier": "us.snaptrade.ios",
+			"supportsTablet": true
+		},
+		"name": "SnapTrade",
+		"orientation": "portrait",
+		"platforms": ["ios", "android"],
+		"privacy": "unlisted",
+		"sdkVersion": "33.0.0",
+		"slug": "snaptrade",
+		"splash": {
+			"backgroundColor": "#000000",
+			"image": "./assets/splash.png",
+			"resizeMode": "cover"
+		},
+
+		"updates": {
+			"checkAutomatically": "ON_LOAD",
+			"fallbackToCacheTimeout": 2
+		},
+		"version": "1.3.2"
+	}
+}
